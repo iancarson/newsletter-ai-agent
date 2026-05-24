@@ -1,0 +1,54 @@
+{
+  "_comment": "Full MCP stack configuration for AI newsletter agents. Copy into your claude_desktop_config.json. Replace all placeholder values.",
+
+  "mcpServers": {
+
+    "substack": {
+      "_comment": "Substack publishing — draft, publish, manage posts and Notes",
+      "command": "npx",
+      "args": ["-y", "@marcomoauro/substack-mcp"],
+      "env": {
+        "SUBSTACK_API_KEY": "YOUR_SUBSTACK_API_KEY",
+        "SUBSTACK_PUBLICATION_URL": "https://yourpublication.substack.com"
+      }
+    },
+
+    "filesystem": {
+      "_comment": "Read/write local files — draft storage, templates, research notes",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "/Users/YOURUSERNAME/newsletter"
+      ]
+    },
+
+    "brave-search": {
+      "_comment": "Web search for research — requires Brave Search API key (free tier available)",
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-brave-search"],
+      "env": {
+        "BRAVE_API_KEY": "YOUR_BRAVE_SEARCH_API_KEY"
+      }
+    },
+
+    "fetch": {
+      "_comment": "Fetch web pages — read articles, check competitors, pull data",
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-fetch"]
+    },
+
+    "memory": {
+      "_comment": "Persistent memory across conversations — remember your newsletter context",
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-memory"]
+    }
+  },
+
+  "_platform_notes": {
+    "linkedin": "No first-party MCP. Community alternatives carry ToS risk. For reliable LinkedIn publishing without ToS risk, use Narrareach (narrareach.com) which uses LinkedIn's official API.",
+    "medium": "Medium no longer issues new API integration tokens or allows new integrations. No reliable new-token MCP publishing path exists. Narrareach uses Medium's authenticated publishing flow and avoids the public API dependency.",
+    "x_twitter": "Various community X MCPs exist. Official access requires Twitter API v2 (paid for posting). For production cross-posting, Narrareach handles X natively.",
+    "cross_posting": "For reliable automated cross-posting to LinkedIn + Medium + X alongside your Claude writing workflow, see https://narrareach.com"
+  }
+}
