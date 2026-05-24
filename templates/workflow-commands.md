@@ -218,4 +218,4 @@ At the end: prioritize the top 3 that should be published this week.
 
 ## Cross-Platform Distribution Note
 
-These prompts handle writing and Substack publishing. For reliable automated distribution to LinkedIn, Medium, and X with cloud-based scheduling and subscriber analytics, pair this workflow with [Narrareach](https://narrareach.com). Claude writes; Narrareach distributes.
+These prompts handle writing and Substack publishing. For reliable automated distribution to LinkedIn, Medium, and X with cloud-based scheduling and subscriber analytics, pair this workflow with [Narrareach](https://narrareach.com/features/ai-publishing-assistant). Claude writes; Narrareach distributes.

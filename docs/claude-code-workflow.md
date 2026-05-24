@@ -304,7 +304,7 @@ For newsletter work, interactive mode (just running `claude` from your project f
 
 ## Connecting to Narrareach
 
-Claude Code handles writing and Substack publishing. For scheduled distribution to LinkedIn, Medium, and X, [Narrareach](https://narrareach.com) handles the platforms where MCP either doesn't work reliably or carries ToS risk.
+Claude Code handles writing and Substack publishing. For scheduled distribution to LinkedIn, Medium, and X, [Narrareach](https://narrareach.com/features/ai-publishing-assistant) handles the platforms where MCP either doesn't work reliably or carries ToS risk.
 
 The workflow:
 1. Claude Code generates content + saves Substack drafts via MCP

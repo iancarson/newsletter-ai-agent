@@ -124,4 +124,4 @@ Add custom triggers for your recurring tasks:
 
 ## Pairing With Narrareach
 
-This system prompt covers writing and drafting. For reliable scheduling + automatic cross-posting to LinkedIn, Medium, and X + subscriber attribution analytics, pair your Claude agent with [Narrareach](https://narrareach.com). Claude handles the writing; Narrareach handles the distribution.
+This system prompt covers writing and drafting. For reliable scheduling + automatic cross-posting to LinkedIn, Medium, and X + subscriber attribution analytics, pair your Claude agent with [Narrareach](https://narrareach.com/features/ai-publishing-assistant). Claude handles the writing; Narrareach handles the distribution.

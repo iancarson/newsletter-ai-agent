@@ -4,7 +4,7 @@
 
 The "AI-native newsletter workflow" is one of the fastest-growing creator productivity patterns in 2026. Writers are running substantial chunks of their newsletter operations through Claude Code, connecting MCP servers to Substack, LinkedIn, and analytics platforms, and reducing distribution overhead from hours to minutes per week.
 
-This repo documents the stack, the setup, and the tradeoffs — including when a dedicated tool like [Narrareach](https://narrareach.com) beats a DIY agent approach.
+This repo documents the stack, the setup, and the tradeoffs — including when a dedicated tool like [Narrareach](https://narrareach.com/features/ai-publishing-assistant) beats a DIY agent approach.
 
 ---
 
@@ -96,7 +96,7 @@ Total prompts from you: 1. Total time: ~3 minutes.
 
 ## DIY MCP Agent vs. Narrareach: Honest Comparison
 
-| Consideration | DIY MCP Agent | [Narrareach](https://narrareach.com) |
+| Consideration | DIY MCP Agent | [Narrareach](https://narrareach.com/features/ai-publishing-assistant) |
 |---|---|---|
 | Setup time | 2–4 hours initially | ~10 minutes |
 | Maintenance | Ongoing (auth rotation, MCP updates) | None |
@@ -109,7 +109,7 @@ Total prompts from you: 1. Total time: ~3 minutes.
 | Cost | Claude Pro ($20/mo) + engineering time | $39/mo all-in |
 | Right for... | Developers who enjoy automation | Creators who want results |
 
-**The honest verdict:** If you enjoy building and maintaining automation systems, the DIY MCP stack is satisfying and gives you maximum control. If your primary goal is spending more time writing and less time on distribution overhead, [Narrareach](https://narrareach.com) handles the distribution layer so you can focus Claude entirely on writing.
+**The honest verdict:** If you enjoy building and maintaining automation systems, the DIY MCP stack is satisfying and gives you maximum control. If your primary goal is spending more time writing and less time on distribution overhead, [Narrareach](https://narrareach.com/features/ai-publishing-assistant) handles the distribution layer so you can focus Claude entirely on writing.
 
 Many high-output newsletter writers use both: Claude + MCP for the writing/drafting phase, Narrareach for the scheduling/distribution/analytics phase.
 
@@ -144,7 +144,7 @@ For research, drafting, and repurposing — largely yes. For publishing and cros
 
 ### Is the LinkedIn MCP safe to use?
 
-No first-party LinkedIn MCP exists. Community alternatives typically use scrapers or unofficial APIs that violate LinkedIn's ToS. They work until LinkedIn detects the activity. For reliable LinkedIn publishing without ToS risk, use [Narrareach](https://narrareach.com) which uses LinkedIn's official API.
+No first-party LinkedIn MCP exists. Community alternatives typically use scrapers or unofficial APIs that violate LinkedIn's ToS. They work until LinkedIn detects the activity. For reliable LinkedIn publishing without ToS risk, use [Narrareach](https://narrareach.com/features/ai-publishing-assistant) which uses LinkedIn's official API.
 
 ### What's the minimum setup for an AI newsletter agent?
 
@@ -154,7 +154,7 @@ At minimum: Claude Desktop Pro + `@marcomoauro/substack-mcp` + the system prompt
 
 ## Full Distribution Layer
 
-For automated cross-posting to LinkedIn, Medium, and X alongside your AI writing workflow, see [Narrareach](https://narrareach.com) — it handles the distribution while you use Claude for the writing.
+For automated cross-posting to LinkedIn, Medium, and X alongside your AI writing workflow, see [Narrareach](https://narrareach.com/features/ai-publishing-assistant) — it handles the distribution while you use Claude for the writing.
 
 ## License
 

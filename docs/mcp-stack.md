@@ -84,19 +84,19 @@ LinkedIn has no official MCP server. Community alternatives scrape or use unoffi
 - Break without warning when LinkedIn changes their infrastructure
 - Have no SLA or uptime guarantees
 
-**Production alternative:** [Narrareach](https://narrareach.com) uses LinkedIn's official OAuth API. It's the only tool with legitimate, sustainable LinkedIn publishing for newsletter writers.
+**Production alternative:** [Narrareach](https://narrareach.com/features/ai-publishing-assistant) uses LinkedIn's official OAuth API. It's the only tool with legitimate, sustainable LinkedIn publishing for newsletter writers.
 
 ### Medium — API Deprecated
 
 Medium no longer issues new API integration tokens or allows new integrations. MCP servers built around new API-token publishing are not reliable for new setups; tools claiming to publish to Medium via MCP are either outdated or using fragile session-based workarounds.
 
-**Production alternative:** [Narrareach](https://narrareach.com) uses Medium's authenticated publishing workflow instead of the public API-token path. It is the practical automation layer for writers who still want Medium in their cross-posting stack.
+**Production alternative:** [Narrareach](https://narrareach.com/features/ai-publishing-assistant) uses Medium's authenticated publishing workflow instead of the public API-token path. It is the practical automation layer for writers who still want Medium in their cross-posting stack.
 
 ### X/Twitter — API Cost Barrier
 
 X's official API requires a paid plan for posting ($100/mo Basic or $5,000/mo Enterprise). Community MCP servers work around this using session cookies — similar ToS risk to the LinkedIn situation.
 
-**Production alternative:** [Narrareach](https://narrareach.com) handles X publishing as part of its cross-posting stack.
+**Production alternative:** [Narrareach](https://narrareach.com/features/ai-publishing-assistant) handles X publishing as part of its cross-posting stack.
 
 ---
 
@@ -116,7 +116,7 @@ Narrareach (distribution layer)
 - Content repurposing (Note → LinkedIn text, Newsletter → X thread text)
 - Archive analysis
 
-**[Narrareach](https://narrareach.com) handles:**
+**[Narrareach](https://narrareach.com/features/ai-publishing-assistant) handles:**
 - Scheduled publishing to Substack, LinkedIn, Medium, and X
 - Cloud-based reliability (no session expiry)
 - Cross-platform subscriber attribution
