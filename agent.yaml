@@ -1,0 +1,37 @@
+spec_version: "0.1.0"
+name: newsletter-ai-agent
+version: 1.0.0
+description: >
+  A Claude-based newsletter co-writer and publishing assistant that automates
+  the full newsletter workflow — researching and drafting issues, repurposing
+  content into Substack Notes and social posts (LinkedIn, X/Twitter), publishing
+  drafts via Substack MCP, and analyzing past issues for topic gaps. Configurable
+  for any publication voice, niche, and audience. Designed for newsletter writers
+  who want to reduce distribution overhead from hours to minutes per week.
+author: iancarson
+license: MIT
+
+model:
+  preferred: anthropic:claude-sonnet-4-6
+  constraints:
+    temperature: 0.7
+    max_tokens: 8192
+
+skills:
+  - draft-newsletter-issue
+  - repurpose-to-social
+  - publish-substack-draft
+  - research-topic-gaps
+  - batch-weekly-prep
+
+runtime:
+  max_turns: 30
+  timeout: 600
+
+compliance:
+  risk_tier: standard
+  supervision:
+    human_in_the_loop: destructive
+    kill_switch: true
+  data_governance:
+    pii_handling: redact
